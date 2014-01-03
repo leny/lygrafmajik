@@ -69,6 +69,7 @@ The optional callback function get three parameters :
 * **error** `Error`
 * **stdout** `Buffer`
 * **stderr** `Buffer`
+
 Those are the three parameters of the [child_process.exec's node.js command callback](http://nodejs.org/api/child_process.html#child_process_child_process_exec_command_options_callback).
 
 ```javascript
