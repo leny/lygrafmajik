@@ -10,24 +10,21 @@ Licensed under the MIT license.
 
     "use strict"
 
+    util = require "util"
+
 We use a class named LyGrafikMajik, each instance represent an image manipulation.
 
     class LyGrafikMajik
 
-        constructor: ( from, to ) ->
+        constructor: ( @from = "", @to = "" ) ->
             @utility = "none"
-            @from = ""
-            @to = ""
             @parts = []
 
-            if typeof from is "string"
-                @from = from
-            else
-                @from = from.join " "
-            if typeof to is "string"
-                @to = to
-            else
-                @to = to.join " "
+            if util.isArray @from
+                @from = @from.join " "
+
+            if util.isArray @to
+                @to = @to.join " "
 
 Creating utility properties.
 
