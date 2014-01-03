@@ -1,9 +1,9 @@
 {
     "name": "lygrafmajik",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "GraphicsMagick wrapper for node.js",
     "keywords": [
-
+        "graphics", "magick", "image", "graphicsmagick", "gm", "convert", "identify"
     ],
     "homepage": "https://github.com/Leny/lygrafmajik",
     "author": {
