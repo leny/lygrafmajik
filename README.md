@@ -81,6 +81,7 @@ myImage.exec( function( oError ) {
 
 As each methods of lygrafmajik object returns itself, all the above methods can be chained, *jQuery-style* : 
 
+```javascript
 lgm = require('lygrafmajik');
 
 myImage = lgm( "./from_file.jpg", "./to_file.jpg" )
@@ -97,6 +98,7 @@ myImage = lgm( "./from_file.jpg", "./to_file.jpg" )
             // do less awesome things...
         }
     } );
+```
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
