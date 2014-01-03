@@ -24,7 +24,7 @@
             "url": "https://github.com/Leny/lygrafmajik/blob/master/LICENSE-MIT"
         }
     ],
-    "main": "lib/<lygrafmajik class="js"></lygrafmajik>",
+    "main": "lib/lygrafmajik.js",
     "engines": {
         "node": ">= 0.8.0"
     },
