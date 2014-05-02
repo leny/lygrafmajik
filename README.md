@@ -1,6 +1,10 @@
 # lygrafmajik
 
+![NPM version](http://img.shields.io/npm/v/lygrafmajik.svg) ![Dependency Status](https://david-dm.org/leny/lygrafmajik.svg) ![Downloads counter](http://img.shields.io/npm/dm/lygrafmajik.svg)
+
 > GraphicsMagick wrapper for node.js
+
+* * *
 
 ## What's lygrafmajik ?
 
